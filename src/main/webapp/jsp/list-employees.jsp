@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css" >   		
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js" ></script>        
-	   
+	    <title>List Employees</title> 
     </head>
 
     <body bgcolor="dracula">          
@@ -39,6 +39,7 @@
                 <c:choose>
                     <c:when test="${not empty employeeList}">
                         <table  class="table table-striped">
+				<th></th>
                             <thead>
                                 <tr>
                                     <td>#</td>
